@@ -1,0 +1,12 @@
+INSERTACOLA (COLA,MAX,FRENTE,FINAL,DATO)
+
+Si FINAL < MAX |Verifica que hay espacio libre|
+	entonces
+	Hacer FINAL = FINAL + 1 |Actualiza FINAL| y 
+		COLA [FINAL-1] = DATO
+	1.1 Si FINAL = 0 entonces [Se inserto el primer elemento de COLA]
+		Hacer FRENTE= 0
+	1.2 Fin del condicional del paso 1.1
+	sino
+		Escribir "Desbordamiento"
+	2 [Fin del condicional del paso 1]

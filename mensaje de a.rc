@@ -1,0 +1,14 @@
+#include <stidio.h>
+int main(){
+	int casos,numco;
+	char x[2]= "<3";
+	scanf("%d",&casos);
+	for(i=0;i<casos;i++){
+	scanf("%d",&numco);
+	for(int j=0;j<numco;j++){
+	printf("%c",x);
+	}
+	printf("\n");
+	}
+return 0;
+}
